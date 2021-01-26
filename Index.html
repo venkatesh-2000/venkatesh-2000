@@ -1,9 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <title>zomato proect</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <style>
+body {    
+    background:rgb(200 200 200);
+    text-align:center;
+}
+h2,h2 i{
+    text-align:left;
+    text-decoration:underline;
+    padding-left:10px
+}    
+input{
+    border:2px solid black;
+    border-radius:25px;
+    width:90vw;
+    font-size:23px;
+}
+div.scroll{
+    white-space:nowrap;
+    overflow:auto;
+    color:white;
+    padding:10px;
+    //background:darkRed; 
+}
+.scroll a{
+    display:inline-block;
+    text-decoration:none;
+    border:1px solid grey;
+    background:slateGray;
+    border-radius:20px;
+    color:white;
+    padding:5px;
+    width:auto;
+}
+
+
+.images{
+    overflow:auto;
+}
+.images img{
+    box-shadow:10px 5px 10px black,-10px 5px 10px black;
+    border-radius:25px;
+}
+
+
+
+#foot{
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background:rgb(200,200,200);
+    margin:0px;
+    padding:10px ;
+    box-shadow:0px -10px 10px rgb(150 150 150);
+    display:flex;
+}
+#foot div,a{
+    width:22.5%;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    color:black;
+    padding:0px;
+}
+#foot div:hover{
+    text-decoration:underline;
+    background:rgb(205 205 205); 
+}
+    </style>
+  </head>
     <body>
  <h2><i class="fa fa-map-marker large "></i>         My location</h2>
  
